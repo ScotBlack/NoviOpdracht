@@ -1,0 +1,110 @@
+
+body {
+    margin: 0px;
+
+}
+
+#wrapper {
+    border-radius: 100px;
+    margin: 0 auto;
+    width: 775px;
+    height:1300px;
+    background: #89CBFF;
+}
+
+h1 {padding: 0;
+    margin: 0;
+    color: #3B393B;
+}
+
+th {
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+#game_info {
+    width: auto;
+    height: 300px;
+    /*background: red;*/
+
+}
+
+.game_title {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 50px;
+    color: white;
+    font-size: 46px;
+    text-align: center;
+}
+
+.game_info {
+    padding: 15px;
+    font-size: 32px;
+    color: #323134;
+    background-color: #DFAE38;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#player_box {
+    width: auto;
+    min-height: 800px;
+    background: #89CBFF;
+}
+
+.player {
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    width:350px;
+    height:160px;
+    border-radius:25px;
+    /*padding-top: 5px;*/
+    box-shadow: 10px 10px 5px grey;
+}
+
+.player.red {
+    background: rgb(240,28,67);
+    background: linear-gradient(180deg, rgba(240,28,67,1) 9%, rgba(158,12,51,1) 96%);
+}
+.player.blue {
+    background: rgb(49,65,163);
+    background: linear-gradient(180deg, rgba(49,65,163,1) 12%, rgba(25,49,130,1) 95%);;
+}
+.player.green {
+    background: rgb(65,147,78);
+    background: linear-gradient(180deg, rgba(65,147,78,1) 9%, rgba(29,102,33,1) 96%);
+}
+
+.player.yellow {
+    background: rgb(249,242,107);
+    background: linear-gradient(180deg, rgba(249,242,107,1) 12%, rgba(187,204,4,1) 95%);
+}
+
+.player.teal {
+    background: rgb(107,236,249);
+    background: linear-gradient(180deg, rgba(107,236,249,1) 12%, rgba(6,156,159,1) 95%);
+}
+
+.player.pink {
+    background: rgb(232,173,230);
+    background: linear-gradient(180deg, rgba(232,173,230,1) 12%, rgba(231,100,210,1) 95%);
+}
+
+.player.orange {
+    background: rgb(255,196,111);
+    background: linear-gradient(180deg, rgba(255,196,111,1) 12%, rgba(238,141,21,1) 95%);
+}
+
+.player.purple {
+    background: rgb(200,111,255);
+    background: linear-gradient(180deg, rgba(200,111,255,1) 12%, rgba(117,6,195,1) 95%);
+}
+
+.player_name {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 50px;
+    color: white;
+    font-size: 46px;
+    text-align: center;
+}
