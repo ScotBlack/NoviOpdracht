@@ -27,7 +27,7 @@ public class ClientsController {
 
     @GetMapping ("/clients")
     public ResponseEntity<Object> getClients() {
-        System.out.println("test2");
+        System.out.println("test4");
         return new ResponseEntity<Object>(data, HttpStatus.OK);
     }
 
